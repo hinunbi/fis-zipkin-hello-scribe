@@ -1,4 +1,4 @@
-# FIS Spring-Boot Zipkin Hello (Thrift)
+# FIS Spring-Boot Zipkin Hello (Scribe)
 
 This example demonstrates how you can use Apache Camel Zipkin component with Spring Boot.
 
