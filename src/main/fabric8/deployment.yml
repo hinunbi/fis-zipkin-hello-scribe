@@ -1,0 +1,11 @@
+spec:
+  template:
+    spec:
+      containers:
+        - 
+          env:
+          - name: ZIPKIN_HOST_NAME
+            value: "localhost"
+          - name: ZIPKIN_PORT
+            value: 9410
+
