@@ -17,7 +17,7 @@ The example can be built and run on local host:
 
 The zipkin connection url environment variable, "ZIPKIN_HOST_NAME", "ZIPKIN_PORT" or Java system property should be set when running the example.
 
-    mvn spring-boot:run -DZIPKIN_HOST_NAME=zipkinhost -DZIPKIN_PORT=9410
+    mvn -s configuration/settings.xml spring-boot:run -DZIPKIN_HOST_NAME=zipkinhost -DZIPKIN_PORT=9410
 
 
 ### Running the example in OpenShift
@@ -28,7 +28,7 @@ It is assumed that:
 
 The example can be built and run on OpenShift using a single goal:
 
-    mvn fabric8:deploy
+    mvn -s configuration/settings.xml fabric8:deploy
 
 When the example runs in OpenShift, you can use the OpenShift client tool to inspect the status
 
